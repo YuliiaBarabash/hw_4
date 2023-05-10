@@ -14,16 +14,13 @@ for (let i = 10; i <= 100; i += 10) {
 
 
 
+
 const n = prompt("Enter any integer value.");
 
-for (let i = 1; i <= Math.sqrt(n); i++) {
-  if (Math.sqrt(n) <= 100) {
-    console.log(i);
-  } else {
-    alert("Number is bigger than 100");
-  }
-  break;
+for (let i = 1; i <= Math.sqrt(n) && i <= 100; i++) {
+  console.log(i); 
 }
+
 
 
 
@@ -34,9 +31,9 @@ const integer = prompt(
 
 for (let i = 2; i < integer; i++) {
   if (integer % i == 0) {
-    alert("Not an integer");
+    alert("Not a primary number");
   } else {
-    alert("Integer");
+    alert("Primary number");
   }
   break;
 }
