@@ -1,4 +1,4 @@
-for (let i = 20; i <= 30; i = i + 0.5) {
+for (let i = 20; i <= 30; i += 0.5) {
   console.log(i);
 }
 
@@ -6,7 +6,7 @@ for (let i = 20; i <= 30; i = i + 0.5) {
 
 
 let dollar = 27;
-for (let i = 10; i <= 100; i = i + 10) {
+for (let i = 10; i <= 100; i += 10) {
   console.log(dollar * i);
 }
 
